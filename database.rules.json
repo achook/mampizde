@@ -1,0 +1,8 @@
+{
+  "rules": {
+    ".read": true,
+    "number": {
+      ".write": "newData.val() == data.val() + 1;"
+    }
+  }
+}

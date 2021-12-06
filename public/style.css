@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    font-family: 'Comic Sans MS', 'Comis Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F500AB;
+    color: white;
+}
+
+#pizda_adder {
+    font-size: xx-large;
+    font-family: inherit;
+
+    background-color: #B80081;
+    color: white;
+
+    border: none;
+    border-radius: 2px;
+
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.2s ease-out;
+
+    cursor: pointer;
+
+}
+
+#pizda_adder:hover {
+    transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+p {
+    font-size: xx-large;
+}
+
+div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    background-color: #B80081;
+}
+
+img {
+    box-sizing: border-box;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+.hidden {
+    display: none;
+}

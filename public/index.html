@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mam pizde</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="/__/firebase/9.6.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/9.6.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/9.6.0/firebase-analytics-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <p>liczymy pizdy z <span id="pizda_reason"></span></p>
+    <button id ="pizda_adder">mam pizde</button>
+    <p id="pizda_counter"></p>
+    
+    <div id="harold" class="hidden">
+      <img src="harold.png">
+    </div>
+    
+  </body>
+</html>
